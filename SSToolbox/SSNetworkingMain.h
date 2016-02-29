@@ -13,7 +13,16 @@
 
 @property AFHTTPSessionManager *manager;
 
+/**
+ *  AFNetworking checks Internet Connection, sets reachibility status depending on it
+ */
 + (void)initReachabilityListener;
+
+/**
+ *  Get the Base URL
+ *
+ *  @return Base URL as String
+ */
 + (NSString*)getBaseURL;
 
 @end

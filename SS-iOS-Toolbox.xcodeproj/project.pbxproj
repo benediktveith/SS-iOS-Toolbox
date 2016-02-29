@@ -21,6 +21,7 @@
 		C1F53AF81C84438D00FB64FF /* SSCurrentViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F53AF71C84438D00FB64FF /* SSCurrentViewControllerHelper.m */; };
 		C1F53AFB1C84445500FB64FF /* SSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F53AFA1C84445500FB64FF /* SSAlertController.m */; };
 		C1F53AFE1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F53AFD1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.m */; };
+		C1F53B011C8455E700FB64FF /* NSObject+SSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F53B001C8455E700FB64FF /* NSObject+SSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		C1F53AFA1C84445500FB64FF /* SSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAlertController.m; path = ../SSToolbox/SSAlertController.m; sourceTree = "<group>"; };
 		C1F53AFC1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SSBackgroundThreadDebugger.h"; path = "SSToolbox/UIView+SSBackgroundThreadDebugger.h"; sourceTree = SOURCE_ROOT; };
 		C1F53AFD1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SSBackgroundThreadDebugger.m"; path = "SSToolbox/UIView+SSBackgroundThreadDebugger.m"; sourceTree = SOURCE_ROOT; };
+		C1F53AFF1C8455E700FB64FF /* NSObject+SSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SSExtension.h"; path = "SSToolbox/NSObject+SSExtension.h"; sourceTree = SOURCE_ROOT; };
+		C1F53B001C8455E700FB64FF /* NSObject+SSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SSExtension.m"; path = "SSToolbox/NSObject+SSExtension.m"; sourceTree = SOURCE_ROOT; };
 		D1BFE4AB7BF573FD116D8B05 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +100,8 @@
 			children = (
 				C1F53AFC1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.h */,
 				C1F53AFD1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.m */,
+				C1F53AFF1C8455E700FB64FF /* NSObject+SSExtension.h */,
+				C1F53B001C8455E700FB64FF /* NSObject+SSExtension.m */,
 				C1F53AF01C843EAF00FB64FF /* SSCoreDataManager.h */,
 				C1F53AF11C843EAF00FB64FF /* SSCoreDataManager.m */,
 				C1F53AEA1C8438D400FB64FF /* SSNetworkingMain.h */,
@@ -266,6 +271,7 @@
 				C1F53AFE1C844DDA00FB64FF /* UIView+SSBackgroundThreadDebugger.m in Sources */,
 				C1F53AD11C84364E00FB64FF /* main.m in Sources */,
 				C1F53AF21C843EAF00FB64FF /* SSCoreDataManager.m in Sources */,
+				C1F53B011C8455E700FB64FF /* NSObject+SSExtension.m in Sources */,
 				C1F53AF51C8441B000FB64FF /* SSFileHelper.m in Sources */,
 				C1F53AF81C84438D00FB64FF /* SSCurrentViewControllerHelper.m in Sources */,
 			);

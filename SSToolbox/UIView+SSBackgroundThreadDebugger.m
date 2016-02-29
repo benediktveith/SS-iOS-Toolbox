@@ -13,11 +13,19 @@
 
 @implementation UIView (SSBackgroundThreadDebugger)
 
+/**
+ *  When setAnimationsEnabled: is called, DEBUG_setAnimationsEnabled gets called instead
+ */
 + (void)load {
     method_exchangeImplementations(class_getInstanceMethod(object_getClass([self class]), @selector(setAnimationsEnabled:)),
                                    class_getInstanceMethod(object_getClass([self class]), @selector(DEBUG_setAnimationsEnabled:)));
 }
 
+/**
+ *  Check if called in Background Thread: --> Send error message and start debugging
+ *
+ *  @param enabled setAnimationsEnabled Value
+ */
 + (void)DEBUG_setAnimationsEnabled:(BOOL)enabled {
     if (![NSThread isMainThread]) {
         NSLog(@"##############################");

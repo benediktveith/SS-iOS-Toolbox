@@ -11,6 +11,11 @@
 
 @interface SSCurrentViewControllerHelper : NSObject
 
+/**
+ *  Iterates through ViewController stack
+ *
+ *  @return Top View Controller
+ */
 + (UIViewController*)currentViewController;
 
 @end

@@ -11,6 +11,12 @@
 
 @interface SSAlertController : NSObject
 
+/**
+ *  Presents an UIAlertController
+ *
+ *  @param title   Alert Title
+ *  @param message Alert Message
+ */
 + (void)showAlertWithTitle:(NSString*)title message:(NSString*)message;
 
 @end
