@@ -14,19 +14,22 @@ ___
 **Tools:**
 -
 * **SSAlertController:**
-	 Presents an AlertController at the current top view controller
-	___
+	* Presents an AlertController at the current top view controller
+
+___
 
 * **SSCurrentViewController:**
-	Iterates through the presenting ViewController stack, returns the top view controller
-	___
+	* Iterates through the presenting ViewController stack, returns the top view controller
+
+___
 
 * **SSFileHelper:**
 	* Get the documents directory
 	* Check if files exists in directory
 	* Save / Remove files at directory
 	* Get file path
-	___
+	
+___
 
 * **SSNetworkingMain**
 	* Uses AFNetworking
@@ -34,17 +37,20 @@ ___
 	* Setup API-Token
 	* Set and return BaseUrl for Networking
 	* Init ReachabilityListener and check network connection
-	___
+
+___
 
 * **SSCoreDataManager:**
 	* Manages CoreData
 	* Get shared CoreData Manager
-	___
+
+___
 
 * **NSObject+SSExtension:**
 	* Perfom blocks on main/background thread
 	* Optional: After delay of time in seconds
-	___
+
+___
 
 * **UIView+SSBackgroundThreadDebugger:**
 	* Checks if UI changes are called outside the main thread
@@ -53,12 +59,14 @@ ___
 ___
 **Technical Requirements:**
 -
-**-iOS** 7.0 and above.
-**-AFNetworking**
+* **iOS** 7.0 and above.
+* **AFNetworking**
+
 ___
 **License:**
 -
 `SS-iOS-Toolbox` is licensed under the **MIT** License, please check License file.
+
 ___
 **Questions / Suggestions ?**
 -
