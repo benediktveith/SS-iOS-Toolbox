@@ -15,34 +15,41 @@ ___
 -
 * **SSAlertController:**
 	 Presents an AlertController at the current top view controller
-___
+	___
+
 * **SSCurrentViewController:**
 	Iterates through the presenting ViewController stack, returns the top view controller
-___
+	___
+
 * **SSFileHelper:**
 	* Get the documents directory
 	* Check if files exists in directory
 	* Save / Remove files at directory
 	* Get file path
-___
+	___
+
 * **SSNetworkingMain**
 	* Uses AFNetworking
 	* Setup Request / Response Serializer
 	* Setup API-Token
 	* Set and return BaseUrl for Networking
 	* Init ReachabilityListener and check network connection
-___
+	___
+
 * **SSCoreDataManager:**
 	* Manages CoreData
 	* Get shared CoreData Manager
-___
+	___
+
 * **NSObject+SSExtension:**
 	* Perfom blocks on main/background thread
 	* Optional: After delay of time in seconds
-___
+	___
+
 * **UIView+SSBackgroundThreadDebugger:**
 	* Checks if UI changes are called outside the main thread
 	* Post error log and stops on breakpoint if true
+
 ___
 **Technical Requirements:**
 -
