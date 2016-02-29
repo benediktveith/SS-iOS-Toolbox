@@ -27,7 +27,8 @@
 {
     static SSCoreDataManager *sharedCoreDataManager = nil;
     if (sharedCoreDataManager == nil) {
-        sharedCoreDataManager = [[SSCoreDataManager alloc] initWithSchemaName:<#Schema Name#>];
+#warning Add Schema Name
+        sharedCoreDataManager = [[SSCoreDataManager alloc] initWithSchemaName:@"Schema-Name"];
     }
     return sharedCoreDataManager;
 }

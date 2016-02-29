@@ -22,7 +22,8 @@
         _manager.requestSerializer = [AFJSONRequestSerializer serializer];
         _manager.responseSerializer = [AFJSONResponseSerializer serializer];
         
-        [_manager.requestSerializer setValue:<#API-Token-Value#> forKey:<#Api-Token#>];
+#warning Add APITOKEN and Value
+        [_manager.requestSerializer setValue:@"<#API-Token-Value#>" forKey:@"<#Api-Token#>"];
     }
     
     return self;
@@ -30,7 +31,8 @@
 
 + (NSString*)getBaseURL {
     //Define Base URL
-    NSString *baseURL = <#Base URL#>;
+#warning Add BaseURL
+    NSString *baseURL = @"<#Base URL#>";
     
     return baseURL;
 }

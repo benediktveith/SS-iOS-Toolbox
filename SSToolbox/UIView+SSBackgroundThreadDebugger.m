@@ -35,7 +35,7 @@
         NSLog(@"##############################");
         NSLog(@"##############################");
         NSLog(@"##############################");
-        <#Set Breakpoint if not set here#>
+#warning Set Breakpoint if not set
     }
     
     [self DEBUG_setAnimationsEnabled:enabled];
